@@ -72,10 +72,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-function submitForm() {
-    const form = document.getElementById("contactForm");
-
-    form.action = "https://formspree.io/f/manwgqyz";
-    form.submit();
-}
