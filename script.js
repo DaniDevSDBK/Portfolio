@@ -76,8 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
 function submitForm() {
     const form = document.getElementById("contactForm");
 
-    const endpoint = atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vZi9tYW53Z3F5eg==");
-
-    form.action = endpoint;
+    form.action = "https://formspree.io/f/manwgqyz";
     form.submit();
 }
