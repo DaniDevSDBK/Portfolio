@@ -602,3 +602,10 @@ ul {
     background-color: #0056b3;
     color: white;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    width: 100%;
+}
