@@ -603,9 +603,12 @@ ul {
     color: white;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
-    width: 100%;
+@media (max-width: 600px) {
+    .contact-form {
+        padding: 15px; 
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
 }
