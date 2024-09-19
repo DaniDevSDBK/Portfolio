@@ -74,9 +74,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function submitForm() {
-    const form = document.getElementById("contact-form");
+    const form = document.getElementById("contactForm");
 
-    // URL codificada en Base64
     const endpoint = atob("aHR0cHM6Ly9mb3Jtc3ByZWUuaW8vZi9tYW53Z3F5eg==");
 
     form.action = endpoint;
