@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         footer.style.visibility = 'visible';
                         footer.style.opacity = 1;
                     }
-                }, index * 500);
+                }, index * 250);
             });
         });
     }, 100);
