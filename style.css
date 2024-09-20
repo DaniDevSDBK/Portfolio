@@ -582,50 +582,6 @@ button[type="submit"]:hover {
     background-color: #00cc99;
 }
 
-
-@media (max-width: 768px) {
-    body {
-        font-size: 0.9rem;
-    }
-
-    .timeline-container {
-        padding: 10px; 
-    }
-
-    .branch-container {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .branch {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .card {
-        width: 80%; 
-    }
-
-    .portfolio-container {
-        flex-direction: column; 
-    }
-
-    .portfolio-item {
-        width: 100%; 
-        margin-bottom: 20px; 
-    }
-
-    .footer-container {
-        flex-direction: column; 
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-column {
-        margin-bottom: 20px;
-    }
-}
-
 @media (max-width: 480px) {
     .portfolio-header h2 {
         font-size: 24px;
@@ -651,45 +607,7 @@ button[type="submit"]:hover {
         font-size: 1.5em; 
     }
 }
-@media (max-width: 768px) {
-    .job-experience {
-        padding: 15px; 
-        font-size: 14px; 
-    }
-}
 
-@media (max-width: 768px) {
-
-    .branch-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .job-experience {
-        padding: 10px;
-        font-size: 12px;
-    }
-}
-
-.branch-container {
-    display: flex;
-    justify-content: space-between; 
-    padding: 20px;
-}
-
-@media (max-width: 768px) {
-    .branch-container {
-        justify-content: space-around; 
-        padding: 10px;
-    }
-
-    .branch .card {
-        width: 80%; 
-        margin-bottom: 10px; 
-    }
-}
 
 @media (max-width: 480px) {
     .branch-container {
@@ -709,75 +627,19 @@ button[type="submit"]:hover {
 }
 
 
-@media (max-width: 768px) {
-    .content-section {
-        padding: 15px; 
-        max-width: 95%; 
+@media (max-width: 360px) {
+    .branch-container {
+        flex-direction: row; 
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .content-section h2 {
-        font-size: 28px; 
-    }
-
-    .content-section p, .content-section ul {
-        font-size: 16px; 
-    }
-
-    .job-experience {
-        padding: 15px; 
-        margin-bottom: 15px;
-    }
-
-    .portfolio-item {
-        width: calc(50% - 10px); 
-        margin-bottom: 15px;
+    .branch .card {
+        width: 1rem;
+        margin: 1rem;
+        display:flexbox;
+        flex-direction: row;
+        align-items: center;
     }
 }
 
-@media (max-width: 480px) {
-    .content-section {
-        padding: 10px; 
-        max-width: 100%; 
-    }
-
-    .content-section h2 {
-        font-size: 24px; 
-    }
-
-    .content-section p, .content-section ul {
-        font-size: 14px; 
-    }
-
-    .content-section ul {
-        padding-left: 15px; 
-    }
-
-
-    .job-experience {
-        padding: 10px;
-        margin-bottom: 10px; 
-    }
-
-    .portfolio-item {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-
-    form {
-        padding: 15px;
-        max-width: 100%; 
-    }
-
-    input[type="text"],
-    input[type="email"],
-    textarea {
-        padding: 8px; 
-        font-size: 14px; 
-    }
-
-    button[type="submit"] {
-        padding: 8px 15px;
-        font-size: 14px; 
-    }
-}
