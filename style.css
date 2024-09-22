@@ -583,6 +583,22 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 480px) {
+
+    .branch-container {
+        flex-direction: row; 
+        justify-content: space-evenly; 
+        padding: 5px; 
+    }
+
+    .branch .card {
+        width: 2rem; 
+        margin: 5px;
+    }
+
+    .branch .card-title {
+        font-size: 14px;
+    }
+
     .portfolio-header h2 {
         font-size: 24px;
     }
@@ -607,25 +623,6 @@ button[type="submit"]:hover {
         font-size: 1.5em; 
     }
 }
-
-
-@media (max-width: 480px) {
-    .branch-container {
-        flex-direction: row; 
-        justify-content: space-evenly; 
-        padding: 5px; 
-    }
-
-    .branch .card {
-        width: 2rem; 
-        margin: 5px;
-    }
-
-    .branch .card-title {
-        font-size: 14px;
-    }
-}
-
 
 @media (max-width: 360px) {
     .branch-container {
