@@ -617,7 +617,7 @@ button[type="submit"]:hover {
     }
 
     .branch .card {
-        width: auto; 
+        width: 2rem; 
         margin: 5px;
     }
 
@@ -631,13 +631,12 @@ button[type="submit"]:hover {
     .branch-container {
         flex-direction: row; 
         justify-content: center;
-        flex-wrap: wrap;
     }
 
-    .branch .card {
-        width: 1rem;
-        margin: 1rem;
-        display:flexbox;
+    .card {
+        width: auto;
+        margin: 1.5rem;
+        display:flex;
         flex-direction: row;
         align-items: center;
     }
